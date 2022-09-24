@@ -1,0 +1,224 @@
+*{
+	margin: 0; padding: 0;
+}
+.main{
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to top,rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url("t2.jpg");
+	background-position: center;
+	background-size: cover;
+}
+.nav{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo
+{
+	color: orange;
+	padding-top: 10px;
+	font-size: 40px;
+	font-family: arial;
+	padding-left: -20px;
+	float: left;
+}
+.menu{
+	margin-left: 60px;
+	width: 400px;
+	float: left;
+	height: 70px;
+}
+.menu ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu ul li{
+	list-style: none;
+	margin-left: 60px;
+	margin-top: 30px;
+	font-size: 15px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	font-family: verdana;
+	font-weight: 800;
+}
+.menu ul li a:hover{
+	color: orange;
+	transition: 0.6s ease;
+}
+.search{
+	width: 330px;
+	float: left;
+	margin-left: 1000px;
+
+}
+.srch{
+
+	font-family: arial;
+	width: 200px;
+	height: 50px;
+	background: transparent;
+	border: 2px solid orange;
+	color: white;
+	
+	font-size: 15px;
+	float: left;
+	padding: 10px;
+	border-radius: 5px;
+}
+.btn{
+	border-radius: 5px;
+	width: 30%;
+	height: 50px;
+	background: orange;
+	border: 2px solid orange;	
+	color: white;
+	font-size: 15px;
+	
+}
+.content{
+	width: 600px;
+	height: auto;
+	margin-left: 80px;
+	padding-top: 50px;
+	margin-top: 30px;
+	color: white;
+	b
+	
+}
+.content .par{
+	padding-left: 20px;
+	padding-bottom: 25px;
+	margin-top: 10px;
+	font-family: verdana;
+	letter-spacing: 1px;
+}
+.content h1{
+	font-family: verdana;
+	font-size: 40px;
+	padding-left: 20px;
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+.content .bb{
+	margin-top: 20px;
+	width: 120px;
+	height: 40px;
+	margin-left: 20px;
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	background: darkorange;	
+}
+.content .bb a{
+	text-decoration: none;
+	color: black;
+
+} 
+.content .bb:hover{
+	background-color: white;
+	transition: 0.5s ease;
+}
+.content span{
+	color: darkorange;
+	font-size: 50px;
+}
+.form{ 
+	margin-left: 1100px;
+	margin-top: -170px;
+	border: 1px solid black;
+	width: 250px;
+	height: 350px;
+	background: linear-gradient(rgba(0,0,0,0.9)50%,rgba(0,0,0,0.9)50%);
+	position: absolute;
+	border-radius: 10px;
+	padding: 25px;
+}
+.form h2{
+	width: 200px;
+	font-family: arial;
+	text-align: center;
+	color: orange;
+	font-size: 23px;
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 15px;
+	padding: 10px;
+
+}
+.form input{
+	width: 250px;
+	height: 40px;
+	background: transparent;
+	border-right: none;
+	border-left: none;
+	border-top: none;
+	color: white;
+}
+ .form .bt{
+ 	margin-top: 10px;
+	width: 120px;
+	height: 40px;
+	margin-left: 60px;
+	border: none;
+	border-radius: 10px;
+	font-size: 15px;
+	cursor: pointer;
+	background: darkorange;	
+}
+.form .bt a{
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+::placeholder{
+	color: white;
+	font-size: 10px;
+	font-family: verdana;
+}
+.form .bt:hover{
+	background: white;
+	color: orange;
+}
+.form .link{
+	font-family: arial;
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.form .link a{
+	text-decoration: none;
+	color: darkorange;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.liw{padding-top: 15px;
+	padding-bottom: 10px;
+	text-align: center;
+
+}
+.form .si{
+	margin-left: 70px;
+	margin-bottom: 10px;
+
+}
+.form .si a{
+	color: blueviolet;
+}
+.links{
+	margin-left: 70px;
+
+}
+.links a{
+	color: darkorange;
+}
