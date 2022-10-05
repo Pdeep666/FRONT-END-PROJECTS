@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<!--=== Coding by CodingLab | www.codinglabweb.com === -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!----======== CSS ======== -->
+    <link rel="stylesheet" href="Form.css">
+     
+    <!----===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <title>Responsive Regisration Form </title> 
+</head>
+<body>
+    <h1>Cars<span style="color: red;">Tars</span></h1>
+    <div class="container">
+        <header>Registration Form</header>
+
+        <form action="#">
+            <div class="form first">
+                <div class="details personal">
+                    <span class="title">Personal Details</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Full Name</label>
+                            <input type="text" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Address</label>
+                            <input type="text" placeholder="Permanent Address" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Email</label>
+                            <input type="text" placeholder="Enter your email" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Mobile Number</label>
+                            <input type="number" placeholder="Enter mobile number" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>City</label>
+                            <select required>
+                                <option disabled selected>Select City</option>
+                                <option>Bengaluru</option>
+                                <option>Dharwad</option>
+                                <option>Hubballi</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>PinCode</label>
+                            <input type="number" placeholder="PinCode" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="details ID">
+                    <span class="title">Car Details</Details></span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Registration Number</label>
+                            <input type="text" placeholder="Enter Reg No" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Owner Name</label>
+                            <input type="text" placeholder="Enter Name" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Car Model</label>
+                            <input type="text" placeholder="Enter Car Model" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Fule Type</label>
+                            <select required>
+                                <option disabled selected>Fule Type</option>
+                                <option>Petrol</option>
+                                <option>Diesel</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Car Color</label>
+                            <input type="text" placeholder="Car Color" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Insurance Expiry Date</label>
+                            <input type="date" placeholder="Enter expiry date" required>
+                        </div>
+                    </div>
+
+                    <button class="nextBtn">
+                        <span class="btnText">Next</span>
+                        <i class="uil uil-navigator"></i>
+                    </button>
+                </div> 
+            </div>
+
+         
+            <div class="form second">
+                <div class="details family">
+                    <span class="title">Car Service</span>
+
+                    <div class="fields">
+                        <div class="input-field">
+                            <label>Delivery Type</label>
+                            <select required>
+                                <option disabled selected>Deliery Type</option>
+                                <option>Pickup Service</option>
+                                <option>Drop Service</option>
+                            </select>
+                        </div>
+
+                       
+                        <div class="input-field">
+                            <label>Service Date</label>
+                            <input type="date" placeholder="Date" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Insurance Expirey Date</label>
+                            <input type="date" placeholder="Time" required>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Service Type</label>
+                            <select required>
+                                <option disabled selected>--Type--</option>
+                                <option>General Service</option>
+                                <option>Fule Service</option>
+                                <option>Interim Service</option>
+                                <option>FullCar Service</option>
+                                <option>MajorCar Service</option>
+                            </select>
+                        </div>
+
+                        <div class="input-field">
+                            <label>Other Services</label>
+                            <select required>
+                                <option disabled selected>--Type--</option>
+                                <option>Tyre Replace</option>
+                                <option>Windshield Replace</option>
+                                <option>Engine Replace</option>
+                                <option>Ac Replace</option>
+                            </select>
+                        </div>
+
+                   
+                    <div class="buttons">
+                        <div class="backBtn">
+                            <i class="uil uil-navigator"></i>
+                            <span class="btnText" style="margin-right:9px ;">Back</span>
+                        </div>
+                        
+                        <button class="sumbit">
+                            <span class="btnText">Submit</span>
+                            <i class="uil uil-navigator"></i>
+                        </button>
+                    </div>
+                </div> 
+            </div>
+        </form>
+    </div>
+
+    <script src="Form.js"></script>
+</body>
+</html>
